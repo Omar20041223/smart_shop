@@ -28,7 +28,7 @@ class ProfileBody extends StatelessWidget {
             const Spacer(),
             InkWell(
               onTap: (){
-                GoRouter.of(context).push(Routes.loginView);
+                GoRouter.of(context).pushReplacement(Routes.loginView);
               },
               child: Container(
                 height: 40,

@@ -14,7 +14,7 @@ class LoginViewFields extends StatefulWidget {
 }
 
 class _LoginViewFieldsState extends State<LoginViewFields> {
-  bool isPasswordVisible = false;
+  bool isPasswordVisible = true;
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
